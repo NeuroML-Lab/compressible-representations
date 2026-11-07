@@ -1,0 +1,5 @@
+[project]
+name = "utilz"
+version = "0.1.0"
+description = "Local utility library"
+requires-python = ">=3.13"

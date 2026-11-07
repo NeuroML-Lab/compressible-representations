@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: utilz
+Version: 0.1.0
+Summary: Local utility library
+Requires-Python: >=3.13
