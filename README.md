@@ -20,14 +20,6 @@ We identify, at each layer, the subspace of a representation that is functionall
 
 Dependencies are managed with [uv](https://docs.astral.sh/uv/) (`pyproject.toml` and `uv.lock`).
 
-```bash
-git clone <TODO: repo url>
-cd <TODO: repo name>
-uv sync
-```
-
-<!-- TODO: state Python version (see requires-python in pyproject.toml), CUDA/PyTorch versions, and whether a GPU is required. -->
-
 ## Repository structure
 
 ```
