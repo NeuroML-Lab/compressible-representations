@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-import cl_benchmark_v3 as core  # noqa: E402
+import utilz.cl_benchmark_v3 as core  # noqa: E402
 
 
 PAPER_ARCHITECTURES = ("alexnet", "alexnet-l", "lenet", "resnet18")

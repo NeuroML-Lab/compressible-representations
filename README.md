@@ -40,7 +40,8 @@ compressible-representation
 ├── vit_*_compression.py              # evaluates layerwise and global classification accuracy for all compressions (sec 3.1, 3.2)
 ├── vit_compressed_adv.py  # evaluates adv robustness for all compression types (sec 3.3)
 ├── task_null_alignment.py            # task-sensitive representational comparisons (sec 3.4)
-├── shape_texture_alignment.py        # task-conditined (shape vs texture) representational comparisons (sec 3.4)
+├── shape_texture_alignment.py        # task-conditioned (shape vs texture) representational comparisons (sec 3.4)
+├── shape_texture_ablation.py         # identificiation of functionally distinct shape and texture subspaces (sec 3.5)
 ├── continual_learning.py             # continual learning experiments with GPM and FGPM (sec 3.6)
 ├── vit_compressed_self_alignment.py  # CKA of projected vs base reps of same compression type (sec A.8)
 ├── vit_compressed_cross_alignment.py # CKA of projected reps across compression types (sec A.8)
@@ -103,7 +104,7 @@ Once the relevant results have been generated (see above), the code below reprod
 | Figure 3 | Global compression across methods | [`figure_code/A_clean_accs.ipynb`](figure_code/A_clean_accs.ipynb) |
 | Figure 4 | Adversarial robustness across methods | [`figure_code/B_adv_accs.ipynb`](figure_code/B_adv_accs.ipynb) |
 | Figure 5 | Task-conditioned representational comparisons | [`task_null_alignment.py`](task_null_alignment.py),  [`shape_texture_alignment.py`](shape_texture_alignment.py) |
-| Figure 6 | Functionally specific subspaces (shape vs. texture) | [`shape_texture_alignment.py`](shape_texture_alignment.py) |
+| Figure 6 | Functionally specific subspaces (shape vs. texture) | [`shape_texture_ablation.py`](shape_texture_alignment.py) |
 | Table 1 | Continual learning results | [`continual_learning.py`](continual_learning.py) |
 | Figure A.7 | Task-sensitive compression across multiple ViTs | [`figure_code/A_clean_accs.ipynb`](figure_code/A_clean_accs.ipynb) |
 | Figure A.8 | Representational comparisons | [`figure_code/A_clean_accs.ipynb`](figure_code/A_clean_accs.ipynb) |
